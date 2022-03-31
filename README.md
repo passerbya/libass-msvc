@@ -8,6 +8,8 @@
 ## 更新代码
 
 如果想从各个项目的源仓库更新代码，直接把代码下载后塞进 src\thirdparty 各项目对应文件夹即可。
+git clone https://github.com/passerbya/libass-msvc.git
+git submodule update --init --recursive --remote
 
 ```
 以下是源仓库地址和对应的文件夹：
