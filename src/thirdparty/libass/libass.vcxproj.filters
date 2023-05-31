@@ -91,6 +91,9 @@
       <Filter>Header Files\libass</Filter>
     </ClInclude>
     <ClInclude Include="config.h" />
+    <ClInclude Include="libass\libass\ass_filesystem.h">
+      <Filter>Header Files\libass</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="libass\libass\ass_fontconfig.c">
@@ -153,6 +156,9 @@
     <ClCompile Include="libass\libass\ass_outline.c">
       <Filter>Source Files\libass</Filter>
     </ClCompile>
+    <ClCompile Include="libass\libass\ass_filesystem.c">
+      <Filter>Source Files\libass</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="libass.def">
@@ -175,8 +181,5 @@
     <NASM Include="libass\libass\x86\blur.asm">
       <Filter>Source Files\libass\x86</Filter>
     </NASM>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="readme.txt" />
   </ItemGroup>
 </Project>
